@@ -59,11 +59,6 @@ const Index = () => {
             </div>
           )}
         </div>
-
-        {/* Footer */}
-        <div className="text-center mt-16 text-gray-500">
-          <p>Built for GrowthProAI Full Stack Intern Assignment</p>
-        </div>
       </div>
     </div>
   );
