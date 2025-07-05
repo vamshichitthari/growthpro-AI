@@ -24,6 +24,13 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50">
       <div className="container mx-auto px-4 py-8">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Mini Local Business Dashboard - Discover your business insights and AI-powered SEO headlines
+          </p>
+        </div>
+
         <div className="max-w-4xl mx-auto">
           {!businessData ? (
             <div className="flex justify-center">
@@ -51,6 +58,11 @@ const Index = () => {
               </div>
             </div>
           )}
+        </div>
+
+        {/* Footer */}
+        <div className="text-center mt-16 text-gray-500">
+          <p>Built for GrowthProAI Full Stack Intern Assignment</p>
         </div>
       </div>
     </div>
